@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./hand-drawn-illustrations-social-media_1134-78.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.creater{
+    background-color: #fff;
+    padding: 34px 100px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 10px 15px 20px #999;
+    cursor: pointer;
+}
+.fa-solid{
+    margin-left: 30px;
+    font-size: 1.2rem;
+    transition: all .4s ease-in;
+}
+
+#social{
+    color: rgb(55, 129, 226);
+    margin-right: 5px;
+    
+}
+.social-links{
+    background-color: #fff;
+    padding: 50px;
+    margin-top: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius:10px ;
+    
+}
+.list li{
+    display: flex;
+    align-items: center;
+    padding: 20px ;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 550;
+    cursor: pointer;
+    border-top-right-radius:10px ;
+    border-bottom-left-radius:10px ;
+    
+}
+.fa-square-twitter{
+    color: rgb(67, 190, 228);
+    padding-right: 10px;
+}
+.fa-instagram{
+    color: rgb(207, 31, 140);
+    padding-right: 10px;
+}
+.fa-youtube{
+    color: rgb(202, 45, 45);
+    padding-right: 10px;
+}
+.fa-facebook{
+    color: rgb(9, 185, 238);
+    padding-right: 10px;
+}
+.list li:hover{
+    background-color: #b9b4b4;
+    padding-left: 24px;
+    font-size: 1.6rem;
+    transition: padding .5s ease;
+}
+.remove{
+    display: none;
+    transition: all 2s ease-in;
+}
+#prag{
+    display: flex;
+    align-items: center;
+}
+.down{
+    transform: rotate(180deg);
+    transition: all .4s ease-in;
+}
